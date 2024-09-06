@@ -1,0 +1,9 @@
+
+{%for i in data%}
+{{i.item_name}}
+
+<img src="/media/{{i.item_image}}" style="width: 200px;height: 300px;" alt="image not found">
+
+<a href="/media/{{i.item_resume}}" download>Resume</a>
+
+{%endfor%}
